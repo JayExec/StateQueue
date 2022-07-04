@@ -6,7 +6,7 @@ import org.junit.jupiter.api.*;
 class StateQueueTests
 {
 	@Test
-	void testPushUndo()
+	void TestPushUndo()
 	{
 		StateQueue<Integer> stateQueue = new StateQueue<>(8, (Integer i) -> i, 0);
 		for(int i = 1; i < 16; i++)
@@ -18,7 +18,7 @@ class StateQueueTests
 	}
 	
 	@Test
-	void testPushUndoRedo()
+	void TestPushUndoRedo()
 	{
 		StateQueue<Integer> stateQueue = new StateQueue<>(8, (Integer i) -> i, 0);
 		for(int i = 1; i < 16; i++)
@@ -33,7 +33,7 @@ class StateQueueTests
 	}
 	
 	@Test
-	void testRemoveRedoStatesOnPush()
+	void TestRemoveRedoStatesOnPush()
 	{
 		StateQueue<Integer> stateQueue = new StateQueue<>(16, (Integer i) -> i, 0);
 		for(int i = 1; i < 16; i++)
