@@ -4,9 +4,8 @@ import java.util.LinkedList;
 import java.util.function.Function;
 
 /**
- * Implementation of state queue which provides {@code undo} and {@code redo}
- * operations. States should be copied before pushing and after retrieving from
- * queue, e.g. with copy constructor.
+ * Implementation of a state queue which provides {@code undo} and {@code redo}
+ * operations. States are copied before pushing and after retrieving from queue.
  * @param   <T>   Type of elements stored in the state queue.
  * @author  JayExec
  * @author  jayexec.github.io
