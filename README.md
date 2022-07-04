@@ -1,7 +1,7 @@
 # StateQueue
 An implementation of a bidirectional queue, allowing for effective *Undo* and *Redo* operations. Extensively uses the *Snapshot* design pattern.
 
-## Using
+## Installation
 1. Clone the project repository:
 ```shell
 $ git clone https://github.com/JayExec/JavaUtilities.git # HTTPS
